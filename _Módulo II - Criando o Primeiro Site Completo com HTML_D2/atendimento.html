@@ -8,28 +8,203 @@
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
+
+    <style>
+
+     *{
+            padding:0;
+            margin:0;
+        }
+
+        h1{
+            font-family:'Times New Roman', Times, serif;
+            color: #c7efe9;
+            font-size: 120px;
+            margin-left: 370px;
+        }
+        
+        img{
+            width: 800px;
+            height: 550px;
+            margin-bottom: 75px;
+            margin-left: 370px;
+            
+        }
+        .menu{
+            background-color: #f2fdfb;
+            position:fixed;
+            padding-block-start:110px ;
+            padding-block-end:120px;
+    
+        }
+
+        .menu li{
+            padding-block:25px;
+            margin-left: 30px;
+            margin-block: 5px;
+            list-style-type: none;
+          
+        }
+
+        .menu li a{
+
+            font-family: Times, serif;
+            font-size: 25px;
+            color: #000000;
+            text-decoration: none;
+            
+
+        }
+
+        h2{ 
+           
+            text-align: left;
+            font-family: Times, serif;
+            font-size: 40px;
+            margin-top: 28px;
+
+        }
+
+        p{
+            
+            width: 800px;
+            text-align: left;
+            font-family: Times, serif;
+            font-size: 20px;
+            margin-top: 28px;
+        }
+
+        .content{
+            margin-bottom: 60px;
+            margin-left: 370px;
+        }
+
+        .footer{
+
+            background-color: #7ba09a;
+            padding-bottom:40px ;
+            margin-left: 260px;
+            padding-left: 110px;
+        }
+
+        table{
+            width: 90%;
+            border-collapse: collapse;
+            border: 1px solid #000000;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 60px; ;
+        }
+
+        th{
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+            
+
+}
+
+   
+    
+   
+</style>
+
     <div class="wrapper">
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <li><a href="principal.html" target="_blank">Página Principal</a></li>
+                <li><a href="clínica.html"  target="_blank">Sobre a clínica</a></li>
+                <li><a href="atendimento.html" target="_blank">Horário de Atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
-            </div>
+                <h1> Pure NutriClinic </h1>
+                <hr>
+                 <img src="https://images.unsplash.com/photo-1558395872-85709c6d3639?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlbCVDMyVCM2dpbyUyMGRlJTIwcGFyZWRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" accesskey="_blank" alt="">
+                 <!-- Aqui vai o seu header -->
+            <hr> 
+                </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+
+
+                <h2>Serviços e horários: </h2>
+
+                   <p> Consulta Inicial: Esta é a base do nosso compromisso com a sua saúde. Nossa Consulta Inicial abrange uma avaliação nutricional completa, um plano de alimentação personalizado e aconselhamento especializado.</p>
+
+                   <p>Consulta de Acompanhamento (sessão de 30 minutos): Manter o foco em seus objetivos de saúde nunca foi tão fácil. Nossas sessões de acompanhamento nutricional de 30 minutos são ideais para manter sua jornada na direção certa.</p>
+                
+                   <p>Consulta de Acompanhamento (sessão de 45 minutos): Se você procura um acompanhamento mais detalhado, nossas sessões de 45 minutos são a escolha perfeita para revisar seu plano de alimentação e receber a orientação que você precisa.</p>
+                
+                   <p>Programa de Gerenciamento de Peso (4 sessões): Nosso programa de gerenciamento de peso é projetado para ajudá-lo a atingir suas metas de peso com sucesso. Inclui avaliação, aconselhamento e educação para uma abordagem holística.</p>
+                
+                   <p>Avaliação Corporal (avulsa): Oferecemos medição de peso, altura e composição corporal para não pacientes, permitindo que você acompanhe seu progresso e compreenda melhor sua saúde.</p>
+
+             
+                
+            <table>
+                <th title="Serviço"> Serviços:</th>
+                <th title="Descrição"> Descrição:</th>
+                <th title="Valor"> Valor:</th>
+                <th title="Horário"> Horário:</th>
+                <tr>
+                    <td>Consulta Inicial</td>
+                    <td>Avaliação Nutricional, Plano Personalizado de Alimentação e Aconselhamento</td>
+                    <td>R$150,00</td>
+                    <td>Seg-Sex 9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Consulta de Acompanhamento (sessão de 30 minutos)</td>
+                    <td>Acompanhamento nutricional e Revisão do Plano de Alimentação</td>
+                    <td>R$100,00</td>
+                    <td>Seg-Sex 9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Consulta de Acompanhamento (sessão de 45 minutos)</td>
+                    <td>Acompanhamento Nutricional e Revisão do Plano de Alimentação  </td>
+                    <td>R$150,00</td>
+                    <td>Seg-Sex 9:00-18:00</td>
+                </tr>
+                    
+                <tr>
+                    <td>Programa de Gerenciamento de Peso (4 sessões)</td>
+                    <td>Plano de Gerenciamento de Peso com Avaliação, Aconselhamento e Educação</td>
+                    <td> R$350,00 </td>
+                    <td>Seg-Sex 9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Avaliação Corporal (avulsa) </td>
+                    <td>Medição de Peso, Altura e Composição Corporal para Não-Pacientes    </td>
+                    <td>R$50,00 </td>
+                    <td>Seg-Sex 9:00-18:00</td>
+                </tr>
+                
+                    
+               
+
+            </table>
+
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                
+
+                <p>Visite a a nossa clinica que está localizada em:</p>
+
+                <p><i> Estr. Jorn. Moacir Meirelles Padilha - Estação Velha, Mendes - RJ, 26700-000</i></p>
+                
+                
             </div>
         </div>
     </div>

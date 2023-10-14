@@ -8,28 +8,196 @@
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
+
+    <style>
+
+      *{
+            padding:0;
+            margin:0;
+        }
+
+        h1{
+            font-family:'Times New Roman', Times, serif;
+            color: #c7efe9;
+            font-size: 120px;
+            margin-left: 370px;
+        }
+
+        h2{ 
+           
+           text-align: left;
+           font-family: Times, serif;
+           font-size: 40px;
+          
+       }
+
+
+
+
+      img{
+            width: 800px;
+            height: 550px;
+            margin-bottom: 75px;
+            margin-left: 370px;
+            
+        }
+
+          .menu{
+            background-color: #f2fdfb;
+            position:fixed;
+            padding-block-start:120px ;
+            padding-block-end:125px;
+            margin-top: 0;
+    
+        }
+        .menu li{
+            padding-block:25px;
+            margin-left: 30px;
+            margin-block: 5px;
+            list-style-type: none;
+            
+         
+        }
+
+        .menu li a{
+
+            font-family: Times, serif;
+            font-size: 25px;
+            color: #000000;
+            text-decoration: none;
+           
+
+        }
+
+        p{
+            
+            width: 800px;
+            text-align: left;
+            font-family: Times, serif;
+            font-size: 20px;
+            margin-top: 28px;
+        }
+
+        .content{
+            margin-bottom: 60px;
+            margin-left: 370px;
+        }
+
+        .footer{
+            background-color: #7ba09a;
+            padding-bottom:40px ;
+            margin-left: 260px;
+            padding-left: 110px;
+        }
+
+        iframe{
+             width:600px; 
+             height: 450px;
+             border:0px; 
+             
+        }
+
+        form{ width: 600px;
+            text-align: left;
+            font-family: Times, serif;
+            font-size: 20px;
+            margin-top: 28px;
+
+        }
+
+        input{
+            
+            width: 90%;
+            margin-left: 10px;
+            margin-right: 1px;
+            padding: 10px;
+            padding-left: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            margin-top: 10px;
+            
+        }
+
+        textarea{
+
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 300px;
+            height: 150px;
+        }
+
+        button{
+            margin-bottom: 5px;
+            padding: 10px;
+            color: #000000;
+            margin-left: 40px;
+            background-color: #c7efe9;
+
+        }
+
+
+</style>
+
+
     <div class="wrapper">
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <li><a href="principal.html" target="_blank">Página Principal</a></li>
+                <li><a href="clínica.html"  target="_blank">Sobre a clínica</a></li>
+                <li><a href="atendimento.html" target="_blank">Horário de Atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
-            </div>
+                <h1> Pure NutriClinic </h1>
+                <hr>
+                 <img src="https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlbGVmb25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="Telefone">
+                 <!-- Aqui vai o seu header -->
+                </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <h2> Entre em contato conosco: </h2>
+
+                <h5>Telefone:(555) 123-4567</h5>
+                <h5>Whatsapp: (123) 555-7890</h5>
+                <h5>Instagram:@PureNutriClinic</h5> 
+
+                <form action="#">
+                    <fieldset>
+                    <label>Nome: </label><input type="text" name="nome" placeholder="Digite o seu nome aqui" required></input>
+                    <label>Email: </label><input type="email" name="email" placeholder="Digite o seu email aqui" required></input>
+                    <label>Assunto: </label><input type="text" name="assunto" placeholder="Assunto" required></input>
+                    <textarea placeholder="Digite aqui o motivo do seu contato." required></textarea>
+                
+                    <button type="submit" title="Enviar">Enviar</button>
+                    <button type="reset" title="limpar">Limpar</button>
+                    </fieldset>
+                </form>
+
+              <center>
+                <p>Visite a a nossa clinica localizada em: </p>
+
+                <p><i> Estr. Jorn. Moacir Meirelles Padilha - Estação Velha, Mendes - RJ, 26700-000</i></p>
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.2792084229686!2d-43.7364776!3d-22.5312113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x994b7ea814010f%3A0xb8253f639362ee0a!2sEstr.%20Jorn.%20Moacir%20Meirelles%20Padilha%2C%20Mendes%20-%20RJ%2C%2026700-000!5e0!3m2!1spt-BR!2sbr!4v1697277842585!5m2!1spt-BR!2sbr" ></iframe>                
+
+            </center>
+
+
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                
+
+                <p>Visite a a nossa clinica que está localizada em:</p>
+
+                <p><i> Estr. Jorn. Moacir Meirelles Padilha - Estação Velha, Mendes - RJ, 26700-000</i></p>
+                
+                
             </div>
         </div>
     </div>
